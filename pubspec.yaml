@@ -1,0 +1,52 @@
+name: flutter_application_4
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/Suras/
+    - assets/Hadeeth/
+    
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/static/Roboto_Condensed-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Roboto/static/Roboto_Condensed-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Roboto/static/Roboto_Condensed-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto/static/Roboto_Condensed-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto/static/Roboto_Condensed-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto/static/Roboto_Condensed-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto/static/Roboto_Condensed-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Roboto/static/Roboto_Condensed-Thin.ttf
+          weight: 100
+          style: italic
